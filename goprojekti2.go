@@ -3,7 +3,8 @@ import "fmt"
 import "time"
 import "sort"
 
-
+//teron vinkki: tee olio-ohjelmoinnilla time.Time:n tilalle miellyttävämpi
+//vaihtoehto metodeilla
 
 func main() {
 	t0 := time.Date(2020,8,24,22,22,22,22,time.UTC)
